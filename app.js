@@ -5,7 +5,7 @@ btn.addEventListener("click", function(){
     drawModule.init();
     this.style.display = 'none';
 });
-
+/*
 	document.onkeydown = function(event) {
 
         keyCode = window.event.keyCode; 
@@ -44,5 +44,5 @@ btn.addEventListener("click", function(){
 		}
       }
 
-
+*/
 })(window, document, drawModule);
