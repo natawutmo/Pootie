@@ -1,0 +1,13 @@
+var mylinecanvas = document.getElementById('mylinecanvas');
+//var mydotcanvas = document.getElementById('mydotcanvas');
+var ctx = mylinecanvas.getContext('2d');
+//var ctx2 = mydotcanvas.getContext('2d');
+var w = 700;
+var h = 700;
+var currentx = w/2;
+var currenty = h;
+var dx;
+var dy;
+var startTime;
+var speed = 5;
+var audio = new Audio('Nandemonaiya.mp3');
